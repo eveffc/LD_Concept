@@ -8,9 +8,14 @@
     ],
     "rewrites": [
       {
+        "source": "!/img/**",
+        "destination": "/index.html"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
     ]
+    
   }
 }
